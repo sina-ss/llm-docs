@@ -1,6 +1,6 @@
 # using gpu for python
 
-## Base installision
+## Base installation
 
 ### 1. Check GPU Compatibility
 
