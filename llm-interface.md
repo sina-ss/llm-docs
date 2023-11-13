@@ -17,7 +17,7 @@
       * ```
         conda activate textgen
         ```
-        However, when you want to deactivate the active enviroment :
+        However, when you want to activate the active enviroment :
       * ```
         conda deactivate
         ```
@@ -54,10 +54,10 @@
   ```
   Conda should give you the URL, switch over to your browser and enter the URL.
 
-  ![1699880944017](image/llm-interface/1699880944017.png)
+  ![1699888411307](image/llm-interface/1699888411307.png)
 * Next, go to "Model" tab and in yellow box paste the name of the model that you coppied from hugging face for instance we want to download the 01-ai/Yi-6B, depending on the model will take a little while finally, it shows "Done!" !
 
-  ![1699882567018](image/llm-interface/1699882567018.png)
+  ![1699888447184](image/llm-interface/1699888447184.png)
 * whenever your model download, it's time to load it. but the point you should pay attention to that for loading model correctly, turn on the "trust_remote_code". So, it printed :  "Successfully loaded 01-ai/Yi-6B".
 * Switch over to "Session" tab, Firstly,  if your type of model is "chat", change the Mode from "Default" to "chat". Secondly, click on "Apply and restart" button.
 * Before test the model, move to "Parameters" tab and you can increase your "max_new_tokens" and  decrease "temperature" to zero. Consider you should check that what works best for you.
